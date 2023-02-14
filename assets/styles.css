@@ -24,7 +24,7 @@ a.nav-link{
 
 .bgimage {
     height:100vh;
-    background: url('/assets/images/background.jpg');
+    background: url('assets/images/background.jpg');
     background-size:cover;
     position:relative;
     opacity:0.8 ;
