@@ -3,10 +3,10 @@
 }
 
 a.navbar-brand{
-    color: #fff;
+    color: black;
 }
 a.nav-link{
-    color: white;
+    color: black;
 }
 
 .navbar-expand-lg .navbar-collapse {
@@ -21,13 +21,28 @@ a.nav-link{
 }
 
 
-
 .bgimage {
     height:100vh;
     background: url('images/background.jpg');
-    background-size:cover;
+    background-size:contain;
     position:relative;
-    opacity:0.8 ;
+    opacity: 0.8;
+
+}
+.bgimage h2{
+    text-shadow: 0 0 20px black;
+    opacity: 1;
+  padding: 10px; 
+  background-color: rgba(255, 255, 255, 0.5);
+    
+    
+}
+.bgimage p{
+    text-shadow: 0 0 20px black,0 0 20px black;
+    opacity: 1;
+  padding: 10px; 
+  background-color: rgba(255, 255, 255, 0.5);
+
 }
 /* text css above hero image*/
 .hero_title {
@@ -48,6 +63,10 @@ a.nav-link{
 
 .me{
     object-fit: contain;
+}
+
+.card:hover .servicesIcon {
+    color: #008000;
 }
 
 
